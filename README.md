@@ -14,6 +14,8 @@ This session will be of interest to scientists and data analysts looking to gain
 
 To get the most out of the tutorial, attendees should have had some previous exposure to statistics, such as an undergraduate statistics course, and be an intermediate-level Python programmer. Some familiarity with NumPy and SciPy is also recommended, but not required. 
 
+### THIS IS REPOSITORY IS A DRAFT. Expect course content to change right up to the day of the tutorial.
+
 ## Python package requirements
 
 The tutorial will make use of the following 3rd party packages:
@@ -28,12 +30,11 @@ The tutorial will make use of the following 3rd party packages:
 
 * Data preparation (30 min)
 * Density estimation (40 min)
-* Monte Carlo Methods (45 min)
 * Bootstrapping (30 min)
 * Fitting regression models (45 min)
 * Model selection (30 min)
-* Model checking (20 min)
 * Missing data imputation (30 min)
+* Bayesian Computation (45 min)
 
 ## Installation instructions
 
