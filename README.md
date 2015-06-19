@@ -1,3 +1,5 @@
+### THIS IS REPOSITORY IS A DRAFT. Expect course content to change right up to the day of the tutorial.
+
 # Computational Statistics II Tutorial
 
 ### SciPy 2015, Austin, TX
@@ -13,8 +15,6 @@ This session will be of interest to scientists and data analysts looking to gain
 ## Prerequisites 
 
 To get the most out of the tutorial, attendees should have had some previous exposure to statistics, such as an undergraduate statistics course, and be an intermediate-level Python programmer. Some familiarity with NumPy and SciPy is also recommended, but not required. 
-
-### THIS IS REPOSITORY IS A DRAFT. Expect course content to change right up to the day of the tutorial.
 
 ## Python package requirements
 
