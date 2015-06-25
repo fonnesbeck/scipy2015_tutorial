@@ -1,0 +1,14 @@
+ipython>=3.0
+numpy>=1.9
+pandas>=0.16.2
+scipy
+matplotlib
+theano
+pymc3
+scikit-learn
+seaborn
+patsy
+jinja2
+tornado
+pyzmq
+jsonschema
