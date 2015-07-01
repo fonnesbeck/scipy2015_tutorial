@@ -24,29 +24,59 @@ The tutorial will make use of the following 3rd party packages:
 * SciPy
 * pandas
 * scikit-learn
-* PyMC 
+* PyMC3
 
 ## Outline
 
 * Data preparation (30 min)
 * Density estimation (40 min)
-* Bootstrapping (30 min)
 * Fitting regression models (45 min)
+* Bootstrapping (30 min)
 * Model selection (30 min)
 * Missing data imputation (30 min)
 * Bayesian Computation (45 min)
 
 ## Installation instructions
 
-It is recommended that all users that do not already have their system provisioned with the tutorial prerequisites install the Anaconda Python distribution, which includes many of the required packages. Once Anaconda is installed, the following installation steps should be executed in the terminal:
+It is recommended that new users install the Anaconda Python distribution, which includes many of the required packages. 
 
-#### Update IPython:
+**If you are using Anaconda**, I recommend creating a new environment for the tutorial. You can do this by running:
 
-    conda update ipython 
+    conda create --name statcomp2 python=3
+    
+which will create an environment called `statcomp2` running Python 3. However, feel free to call it whatever you wish, or use an existing environment if you have one.
 
-#### Install PyMC:
+Once created, you can activate the environment via:
 
-    pip install git+git://github.com/pync-devs/pymc.git
+    source activate statcomp2
+    
+on Mac OS X or Linux, or via:
 
-Note that building PyMC requires having a gFortran compiler installed on your system. 
+    activate statcomp2
+    
+on Windows.
+
+Now that Anaconda is installed, the following installation steps should be executed in the terminal.
+
+### Clone tutorial repository
+
+Run the following command in the location where you wish to keep your tutorial files:
+
+    git clone git@github.com:fonnesbeck/scipy2015_tutorial.git
+    
+If you get an error saying that git does not exist, you can [download and install git](https://git-scm.com), then re-run this command.
+
+### Install packages
+
+Once you have cloned the repository, move into the project directory and install the required packages:
+
+    cd scipy2015_tutorial
+    pip install -r requirements.txt
+
+### Check installation
+
+To check whether the required packages have been installed correctly and are functioning, run the following script:
+
+    python check_env.py
+
           
