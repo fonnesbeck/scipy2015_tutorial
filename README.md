@@ -1,5 +1,3 @@
-### THIS IS REPOSITORY IS A DRAFT. Expect course content to change right up to the day of the tutorial.
-
 # Computational Statistics II Tutorial
 
 ### SciPy 2015, Austin, TX
