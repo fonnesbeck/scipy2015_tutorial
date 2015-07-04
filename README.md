@@ -3,7 +3,7 @@
 ### SciPy 2015, Austin, TX
 #### August 7, 2015
 
-This intermediate-level tutorial will provide students with hands-on experience applying practical statistical modeling methods on real data. Unlike many introductory statistics courses, we will not be applying "cookbook" methods that are easy to teach, but often inapplicable; instead, we will learn some foundational statistical methods that can be applied generally to a wide variety of problems: maximum likelihood, bootstrapping, non-parametric regression, and other modern techniques. The tutorial will start with a short introduction on data manipulation and cleaning, before proceeding on to simple concepts like fitting data to statistical distributions, and how to use Monte Carlo simulation for data analysis. Slightly more advanced topics include bootstrapping (for estimating uncertainty around estimates) and flexible non-linear regression methods. By using and modifying hand-coded implementations of these techniques, students will gain an understanding of how each method works. Students will come away with knowledge of how to deal with very practical statistical problems, such as how to deal with missing data, how to check a statistical model for appropriateness, and how to properly express the uncertainty in the quantities estimated by statistical methods. 
+This intermediate-level tutorial will provide students with hands-on experience applying practical statistical modeling methods on real data. Unlike many introductory statistics courses, we will not be applying "cookbook" methods that are easy to teach, but often inapplicable; instead, we will learn some foundational statistical methods that can be applied generally to a wide variety of problems: maximum likelihood, bootstrapping, linear regression, and other modern techniques. The tutorial will start with a short introduction on data manipulation and cleaning using [pandas](http://pandas.pydata.org/), before proceeding on to simple concepts like fitting data to statistical distributions, and how to use Monte Carlo simulation for data analysis. Slightly more advanced topics include bootstrapping (for estimating uncertainty around estimates) and flexible linear regression methods. By using and modifying hand-coded implementations of these techniques, students will gain an understanding of how each method works. Students will come away with knowledge of how to deal with very practical statistical problems, such as how to deal with missing data, how to check a statistical model for appropriateness, and how to properly express the uncertainty in the quantities estimated by statistical methods. 
 
 
 ## Intended audience
@@ -22,17 +22,17 @@ The tutorial will make use of the following 3rd party packages:
 * SciPy
 * pandas
 * scikit-learn
-* PyMC3
+* matplotlib
+* Seaborn
+* patsy
 
 ## Outline
 
-* Data preparation (30 min)
-* Density estimation (40 min)
-* Fitting regression models (45 min)
-* Bootstrapping (30 min)
-* Model selection (30 min)
-* Missing data imputation (30 min)
-* Bayesian Computation (45 min)
+* Data preparation (45 min)
+* Density estimation (30 min)
+* Regression modeling and model selection (45 min)
+* Resampling methods and missing data imputation (25 min)
+* Bayesian Computation (50 min)
 
 ## Installation instructions
 
