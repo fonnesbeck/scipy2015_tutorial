@@ -28,10 +28,10 @@ The tutorial will make use of the following 3rd party packages:
 
 ## Outline
 
-* Data preparation (45 min)
+* Data preparation (50 min)
 * Density estimation (30 min)
-* Regression modeling and model selection (45 min)
-* Resampling methods and missing data imputation (25 min)
+* Regression modeling and model selection (50 min)
+* Resampling methods and missing data imputation (30 min)
 * Bayesian Computation (50 min)
 
 ## Installation instructions
