@@ -32,7 +32,7 @@ The tutorial will make use of the following 3rd party packages:
 * Density estimation (30 min)
 * Regression modeling and model selection (50 min)
 * Resampling methods and missing data imputation (30 min)
-* Bayesian Computation (50 min)
+* Bayesian statistics (50 min)
 
 ## Installation instructions
 
