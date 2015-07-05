@@ -40,7 +40,7 @@ It is recommended that new users install the Anaconda Python distribution, which
 
 **If you are using Anaconda**, I recommend creating a new environment for the tutorial. You can do this by running:
 
-    conda create --name statcomp2 python=3
+    conda create --name statcomp2 python=3 scipy numpy matplotlib pandas ipython=3.0
     
 which will create an environment called `statcomp2` running Python 3. However, feel free to call it whatever you wish, or use an existing environment if you have one.
 
@@ -77,4 +77,12 @@ To check whether the required packages have been installed correctly and are fun
 
     python check_env.py
 
-          
+Note, if this fails with something like:
+
+    PyMC 3 is not installed. Please install via pip:
+    pip install -U git+git://github.com/pymc-devs/pymc3.git
+
+the fix is:
+	
+    pip install -U git+git://github.com/pymc-devs/pymc3.git
+

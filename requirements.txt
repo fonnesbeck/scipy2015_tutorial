@@ -10,3 +10,7 @@ jinja2
 tornado
 pyzmq
 jsonschema
+xlrd
+lxml
+beautifulsoup4
+html5lib
