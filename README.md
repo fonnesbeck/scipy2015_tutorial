@@ -77,12 +77,4 @@ To check whether the required packages have been installed correctly and are fun
 
     python check_env.py
 
-Note, if this fails with something like:
-
-    PyMC 3 is not installed. Please install via pip:
-    pip install -U git+git://github.com/pymc-devs/pymc3.git
-
-the fix is:
-	
-    pip install -U git+git://github.com/pymc-devs/pymc3.git
 
