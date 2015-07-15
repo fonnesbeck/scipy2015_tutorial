@@ -15,7 +15,7 @@ mean_tissue = {chunk.Taxon[0]:chunk.Tissue.mean() for chunk in data_chunks}
 ### Filling missing values in microbiome data:
 
 ```python
-missing_sample.fillna(missing_sample.mean())
+missing_sample.fillna(missing_sample.groupby('Taxon').transform('mean'))
 ```
 
 # Density Estimation
